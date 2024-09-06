@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(147, 147, 187);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size:2.6em ;
+    margin-top: 50px;
+}
+
+.input-section{
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px blue;
+    width: 80%;
+}
+.instructions{
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#text-input{
+padding: 8px;
+border-bottom: 4px solid purple;
+border-radius: 5px;
+margin-right: 5px;
+width: 70%;
+}
+
+#check-btn{
+    background-color: purple;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    width: 80px;
+    font-size: 15px;
+    border: none;
+}
+.discription-paragraph{
+    background-color: green;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-size: 1.3em;
+    margin: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#result{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+@media(max-width:500px){
+    .container{
+     width: 100%;
+     
+    } 
+  
+    .input-section{
+        
+        padding: 40px;
+        border-radius: 0px;
+        box-shadow: 2px 2px 2px blue;
+        width: 100%;
+        margin-bottom: 0;
+    }  
+
+    .discription-paragraph{
+        
+        text-align: center;
+        padding: 40px;
+        color: white;
+        font-size: 1.3em;
+        margin: 0px;
+        border-radius: 0px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 9px;
+    }
+    
+    .instructions{
+        margin-bottom: 20px;
+        margin-top: 0px;
+        font-size: 1.2em;
+        font-weight: 700;
+    }   
+
+    #text-input{
+        padding: .8em; 
+        border-bottom: 4px solid purple;
+        border-radius: 5px;
+        margin-right: 5px;
+        width: 80%;
+        margin-bottom: 5px;
+      
+        }
+        
+#check-btn{
+    
+    padding: 8px;
+    border-radius: 12px;
+    width: 6.5em;
+    font-size: 15px;
+margin-top: 9px
+}
+h1{
+    
+
+    font-size:2.2em ;
+    margin-top: 50px;
+}
+
+
+}
+
+@media(min-width: 501px){
+    .input-section{
+        
+        width: 500px;
+    }
+    .discription-paragraph{
+       width: 500px;
+       padding: 50px;
+    }
+    
+
+}
